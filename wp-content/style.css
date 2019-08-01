@@ -1,0 +1,141 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:300);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,700,400);
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+}
+
+.container{
+	width: 1100px !important;
+}
+a{
+	color: #df3363;
+}
+a:hover{
+	color: #90347f;
+}
+
+/** Cabecera **/
+#cabecera{
+	background: url(../images/superior2.jpg) no-repeat #ff5581 center;
+	height: 200px;
+	margin-bottom: 20px;
+	border-bottom: 3px solid #90347f;
+	min-width: 1100px !important;
+}
+
+.menu_vertical_desplegable{
+	padding:10px; border-right: 1px solid #CDCDCD; border-left: 1px solid #CDCDCD; background: #EEEEEE
+}
+.menu_vertical_desplegable ul{
+	padding: 0px;
+	list-style: none;
+}
+.menu_vertical_desplegable li{
+	margin: 5px;
+	list-style: none;
+}
+.logo{
+	margin-top: 45px;
+	width: 328px;
+	height: 110px;
+	/*background: url(../images/desenfoque_logo.png) no-repeat;*/
+}
+
+/** Pie de pagina **/
+.creditos{
+	font-size: 0.9em;
+	padding: 10px 0px;
+	color: #EEE;
+	background: #e2194f;
+	min-width: 1100px !important;
+}
+.section_oscuro{
+	padding: 20px 0px;
+	min-width: 1100px !important;
+	background: #DFDFDF;
+}
+.cuerpo{
+	margin-bottom: 15px;
+}
+.section_blanca{
+	padding: 20px 0px;
+	min-width: 1100px !important;
+}
+.warmi{
+	position: absolute;
+	height: 45px;
+	width: 115px;
+	top: -21px;
+	right: 0px;
+}
+
+
+/** Index **/
+.articulo_title{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	margin-top: 0px;
+	font-size: 16px;
+	margin-bottom: 12px;
+}
+
+/** Contenedor **/
+.seccion{
+	margin: 15px 0px;
+}
+.titulo{
+	font-family: 'Roboto', sans-serif;
+	line-height: 1em;
+	margin: 5px 0px;
+	padding: 0px;
+	font-size: 30px;
+	color: #00b5ae
+}
+.subtitulo{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	margin: 20px 0px;
+}
+
+/** Sociedades **/
+.sociedades a{
+	text-decoration: none;
+	cursor: pointer;
+	color: #555;
+	font-size: 1.2em;
+}
+
+/*** Bootstrap custom ***/
+.list-group-item.active,
+.list-group-item.active:hover,
+.list-group-item.active:focus {
+  background-color: #ff5681;
+  border-color: #ff5681;
+}
+.popover {
+  max-width: 500px;
+}
+
+
+/** Slide Master **/
+.jssorb01 div, .jssorb01 div:hover, .jssorb01 .av
+{
+	filter: alpha(opacity=70);
+	opacity: .7;
+	overflow:hidden;
+	cursor: pointer;
+	border: #000 1px solid;
+}
+.jssorb01 div { background-color: gray; }
+.jssorb01 div:hover, .jssorb01 .av:hover { background-color: #d3d3d3; }
+.jssorb01 .av { background-color: #fff; }
+.jssorb01 .dn, .jssorb01 .dn:hover { background-color: #555555; }
+/** End Slide Master **/
+
+
+
+.rssFeed {
+	margin: 5px 0px;
+}
