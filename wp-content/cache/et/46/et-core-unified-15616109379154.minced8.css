@@ -186,6 +186,10 @@ body #page-container .et_pb_contact_form_0.et_pb_contact_form_container .et_pb_b
 .et_pb_slide_0.et_pb_slide .et_pb_slide_content {
     background-color: rgba(221, 221, 221, 0.73)
 }
+.et_pb_slide__1.et_pb_slide .et_pb_slide_title,
+.et_pb_slide__1.et_pb_slide .et_pb_slide_content {
+    background-color: rgba(221, 221, 221, 0.73)
+}
 
 .et_pb_slide_2.et_pb_slide .et_pb_slide_title,
 .et_pb_slide_2.et_pb_slide .et_pb_slide_content {
@@ -222,6 +226,12 @@ body #page-container .et_pb_contact_form_0.et_pb_contact_form_container .et_pb_b
 }
 
 body #page-container .et_pb_slider .et_pb_slide_0.et_pb_slide .et_pb_button {
+    color: #ffffff!important;
+    background: rgba(0, 0, 0, 0.29);
+    background-color: rgba(0, 0, 0, 0.29)
+}
+
+body #page-container .et_pb_slider .et_pb_slide__1.et_pb_slide .et_pb_button {
     color: #ffffff!important;
     background: rgba(0, 0, 0, 0.29);
     background-color: rgba(0, 0, 0, 0.29)
@@ -314,6 +324,15 @@ body #page-container .et_pb_slider .et_pb_slide_4.et_pb_slide .et_pb_button {
     padding-bottom: 250px!important
 }
 
+.et_pb_slider .et_pb_slide__1 .et_pb_slide_description,
+.et_pb_slider_fullwidth_off .et_pb_slide__1 .et_pb_slide_description {
+    padding-bottom: 250px!important
+}
+
 .et_pb_slider .et_pb_slide_0 {
     background-image: url(../../../uploads/aregua.jpg)
+}
+
+.et_pb_slider .et_pb_slide__1 {
+    background-image: url(../../../uploads/afiche_curso1.jpeg)
 }
